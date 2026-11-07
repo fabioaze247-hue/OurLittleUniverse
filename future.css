@@ -1,0 +1,322 @@
+/* =========================
+   OUR FUTURE
+========================= */
+
+
+/* =========================
+   HERO
+========================= */
+
+.future-hero {
+    min-height: 580px;
+    padding: 100px 8%;
+    background: var(--green-light);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.future-hero h1 {
+    font-size: clamp(48px, 7vw, 76px);
+    color: var(--red-dark);
+    margin-bottom: 20px;
+}
+
+.future-subtitle {
+    max-width: 550px;
+    font-size: 16px;
+    line-height: 1.9;
+    color: var(--green-dark);
+}
+
+.future-divider {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    margin-top: 35px;
+    color: var(--red);
+    font-size: 20px;
+}
+
+.future-divider span {
+    width: 55px;
+    height: 1px;
+    background: var(--red-light);
+}
+
+.future-button {
+    display: inline-block;
+    margin-top: 30px;
+    padding: 14px 28px;
+    background: var(--red);
+    border-radius: 50px;
+    color: white;
+    text-decoration: none;
+    font-weight: 800;
+    transition: 0.3s;
+}
+
+.future-button:hover {
+    background: var(--red-dark);
+    transform: translateY(-3px);
+}
+
+.future-button span {
+    margin-left: 8px;
+}
+
+
+/* =========================
+   INTRODUCTION
+========================= */
+
+.future-intro {
+    padding: 100px 20px;
+    background: var(--cream);
+    text-align: center;
+}
+
+.future-intro h2 {
+    font-size: clamp(30px, 5vw, 42px);
+    color: var(--red-dark);
+    margin-bottom: 22px;
+}
+
+.future-intro > p:not(.eyebrow) {
+    max-width: 570px;
+    margin: auto;
+    font-size: 15px;
+    line-height: 2;
+}
+
+.intro-heart {
+    display: block;
+    margin-top: 25px;
+    color: var(--green);
+    font-size: 30px;
+}
+
+
+/* =========================
+   DREAMS SECTION
+========================= */
+
+.dreams-section {
+    padding: 110px 8%;
+    background: var(--red-light);
+}
+
+.future-heading {
+    text-align: center;
+    margin-bottom: 55px;
+}
+
+.future-heading h2 {
+    color: var(--red-dark);
+    font-size: clamp(32px, 5vw, 43px);
+    margin-bottom: 12px;
+}
+
+.future-heading > p:last-child {
+    font-size: 14px;
+    color: var(--text);
+}
+
+
+/* =========================
+   DREAM CARDS
+========================= */
+
+.dreams-grid {
+    max-width: 1050px;
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 22px;
+}
+
+.dream-card {
+    position: relative;
+    min-height: 310px;
+    padding: 38px;
+    border-radius: 18px;
+    background: var(--cream);
+    box-shadow: 0 8px 25px rgba(54, 86, 62, 0.05);
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.dream-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 13px 30px rgba(54, 86, 62, 0.09);
+}
+
+.dream-number {
+    position: absolute;
+    top: 25px;
+    right: 28px;
+    font-family: 'Playfair Display', serif;
+    font-size: 25px;
+    color: var(--red-light);
+}
+
+.dream-symbol {
+    display: block;
+    font-size: 30px;
+    color: var(--green);
+    margin-bottom: 25px;
+}
+
+.dream-category {
+    font-size: 10px;
+    letter-spacing: 2px;
+    font-weight: 800;
+    color: var(--green);
+    margin-bottom: 12px;
+}
+
+.dream-card h3 {
+    font-family: 'Playfair Display', serif;
+    font-size: 26px;
+    color: var(--red-dark);
+    margin-bottom: 15px;
+}
+
+.dream-description {
+    max-width: 380px;
+    font-size: 14px;
+    line-height: 1.9;
+    color: var(--text);
+}
+
+.dream-footer {
+    display: block;
+    margin-top: 25px;
+    font-size: 12px;
+    font-weight: 800;
+    color: var(--green-dark);
+}
+
+
+/* Card variations */
+
+.travel-card {
+    background: var(--green-light);
+}
+
+.experiences-card {
+    background: var(--cream);
+}
+
+.home-card {
+    background: var(--cream);
+}
+
+.everyday-card {
+    background: var(--green-light);
+}
+
+
+/* =========================
+   FUTURE TOGETHER
+========================= */
+
+.future-together {
+    padding: 110px 20px;
+    background: var(--cream);
+    text-align: center;
+}
+
+.together-content {
+    max-width: 650px;
+    margin: auto;
+}
+
+.together-content h2 {
+    color: var(--red-dark);
+    font-size: clamp(35px, 6vw, 50px);
+    margin-bottom: 25px;
+}
+
+.together-content > p:not(.eyebrow) {
+    font-size: 15px;
+    line-height: 2;
+    color: var(--text);
+}
+
+.together-names {
+    margin-top: 35px;
+    font-family: 'Playfair Display', serif;
+    font-size: 27px;
+    color: var(--green-dark);
+}
+
+.together-names span {
+    color: var(--red);
+}
+
+
+/* =========================
+   ENDING
+========================= */
+
+.future-ending {
+    padding: 110px 20px;
+    text-align: center;
+    background: var(--green-light);
+}
+
+.future-ending h2 {
+    max-width: 650px;
+    margin: 0 auto 20px;
+    color: var(--red-dark);
+    font-size: clamp(35px, 6vw, 50px);
+}
+
+.future-ending > p:not(.eyebrow) {
+    max-width: 500px;
+    margin: auto;
+    font-size: 14px;
+    line-height: 1.9;
+}
+
+
+/* =========================
+   MOBILE
+========================= */
+
+@media (max-width: 700px) {
+
+    .future-hero {
+        min-height: 500px;
+        padding: 75px 7%;
+    }
+
+    .future-intro {
+        padding: 75px 22px;
+    }
+
+    .dreams-section {
+        padding: 75px 6%;
+    }
+
+    .dreams-grid {
+        grid-template-columns: 1fr;
+        gap: 16px;
+    }
+
+    .dream-card {
+        min-height: 270px;
+        padding: 30px 25px;
+    }
+
+    .dream-card h3 {
+        font-size: 24px;
+    }
+
+    .future-together,
+    .future-ending {
+        padding: 80px 22px;
+    }
+}
